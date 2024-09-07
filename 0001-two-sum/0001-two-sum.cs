@@ -10,14 +10,11 @@ public class Solution {
            if(numb.ContainsKey(diff))
            {
             return new int[2] {i,numb[diff]};
-           } 
-
-            if(!numb.ContainsKey(nums[i])) 
-            {
-                numb.Add(nums[i],i);
-            }          
-                      
+           }     
+           numb[nums[i]] = i;   
         }
+
+        
 
         return new int[2] {-1, -1};
     }
