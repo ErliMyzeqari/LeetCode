@@ -1,15 +1,22 @@
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
 
+        Dictionary<int,int> numb = new Dictionary<int,int>();
+
+
         for(int i = 0; i < nums.Length; i++)
         {
-            for (int j = i+1; j < nums.Length; j++)
-            {
-               if(nums[i] + nums[j] == target){
-                return new int[2] {i, j};
-               }
+           int diff = target- nums[i];
+           if(numb.ContainsKey(diff))
+           {
+            return new int[2] {i,numb[diff]};
+           } 
 
-            }
+            if(!numb.ContainsKey(nums[i])) 
+            {
+                numb.Add(nums[i],i);
+            }          
+                      
         }
 
         return new int[2] {-1, -1};
