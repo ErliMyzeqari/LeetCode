@@ -8,13 +8,12 @@ public class Solution {
 
         while(i<j)
         {
-            if(myString[i] == myString[j]){
-                i++;
-                j--;
-            }
-            else{
+            if(myString[i] != myString[j])
                 return false;
-            }
+                     
+            i++;
+            j--;
+            
             
         }
 
