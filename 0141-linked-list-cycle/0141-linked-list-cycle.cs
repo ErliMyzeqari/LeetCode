@@ -17,7 +17,7 @@ public class Solution {
 
 
         while(fast != null && fast.next != null){
-            Console.WriteLine(fast.val);
+            
             fast = fast.next.next;
             slow = slow.next;
 
