@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/ErliMyzeqari/LeetCode/tree/master/0009-palindrome-number) |
+| [0070-climbing-stairs](https://github.com/ErliMyzeqari/LeetCode/tree/master/0070-climbing-stairs) |
 ## String
 |  |
 | ------- |
@@ -44,4 +45,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ErliMyzeqari/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ErliMyzeqari/LeetCode/tree/master/0027-remove-element) |
 | [0141-linked-list-cycle](https://github.com/ErliMyzeqari/LeetCode/tree/master/0141-linked-list-cycle) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/ErliMyzeqari/LeetCode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/ErliMyzeqari/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
