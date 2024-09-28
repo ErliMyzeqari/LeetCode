@@ -1,21 +1,21 @@
 public class Solution {
-    public int ClimbStairs(int n) {
+    
+Dictionary<int, int> memo = new Dictionary<int, int>(); 
 
+    public int ClimbStairs(int n) {
+        
         if(n <= 2){
             return n;
         }
 
-        int a = 1;
-        int b = 2;
-        int c = 0;
-        
-
-        for(int i = 2; i < n; i++){
-            c = a+b;
-            a = b;
-            b = c;
+        if(memo.ContainsKey(n)){
+              
+            return memo[n];
         }
-        return c;
+
+        memo.Add(n, ClimbStairs(n-1) + ClimbStairs(n-2));
+        
+        return memo[n];
         
     }
 }
